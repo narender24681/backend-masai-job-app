@@ -1,0 +1,19 @@
+###
+GET http://localhost:8080/jobs
+
+
+
+###
+POST http://localhost:8080/post-jobs
+Content-Type: application/json
+
+{
+    "company": "NHL",
+    "city": "Hyderabad",
+    "location": "Hyderabad",
+    "role": "FullStack",
+    "level": "Senior",
+    "position": "FSD",
+    "language": "Javascript",
+    "contract": "Full Time"
+}
