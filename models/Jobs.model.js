@@ -10,6 +10,8 @@ const jobsSchema = mongoose.Schema({
     contract: {type: String, required: true},
     position: {type: String, required: true},
     language: {type: String, required: true},
+}, {
+    versionKey: false
 });
 
 const JobsModel = mongoose.model("jobs", jobsSchema);
